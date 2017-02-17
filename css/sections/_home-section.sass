@@ -1,0 +1,55 @@
+.home-section
+  max-width: 800px
+  margin: 0 auto
+  background: 
+    image: url('../img/home-bg.jpg')
+    repeat: no-repeat
+    position: center
+    size: cover
+
+.home 
+  max-width: 500px
+  margin: 0 auto
+  padding: 60px 0 120px 0
+  color: #ffffff
+  text-align: center
+  position: relative
+  
+  &__title
+    font-family: 'Ubuntu', sans-serif
+    font-size: 3.4rem
+    text-transform: uppercase
+
+  &__line
+    +horizontal-line(100px, #4e656f)
+    display: inline-block
+
+  &__dsc
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+  &__dsc p
+    font-size: 1.07rem
+    font-weight: 700
+    text-transform: uppercase
+    display: inline-block
+
+@media (max-width: 500px)
+
+  .home
+
+    &__title
+      font-size: 2rem
+      margin-top: 40px
+    
+    &__dsc
+      display: block
+
+    &__line,
+
+    nav
+      display: none
+
+  .mobile-nav
+    display: block
