@@ -407,6 +407,16 @@ template {
 [hidden] {
   display: none; }
 
+.wrap {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.container {
+  max-width: 600px;
+  padding: 60px 0;
+  margin: 0 auto;
+  display: flex; }
+
 .nav ul {
   list-style: none;
   margin: 0;
@@ -536,8 +546,6 @@ template {
   .hamburger {
     display: block; } }
 .home-section {
-  max-width: 800px;
-  margin: 0 auto;
   background-image: url("../img/home-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -581,5 +589,16 @@ template {
 
   nav {
     display: none; } }
+.for-who {
+  text-align: center;
+  background-color: #eeeeef; }
+  .for-who h3 {
+    font-size: 1.14rem;
+    text-transform: uppercase; }
+  .for-who__line {
+    width: 130px;
+    height: 2px;
+    background-color: #e2e3e4;
+    display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
