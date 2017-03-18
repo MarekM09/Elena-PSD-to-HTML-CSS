@@ -13,7 +13,6 @@
 html {
   font-family: 'PT Sans', sans-serif;
   /* 1 */
-  font-size: 14px;
   line-height: 1.15;
   /* 2 */
   -ms-text-size-adjust: 100%;
@@ -27,6 +26,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
+  font-size: 14px;
   margin: 0;
   background-color: #497576; }
 
@@ -419,10 +419,6 @@ template {
 .col-3 {
   display: flex; }
 
-.col-2 {
-  display: flex;
-  justify-content: space-between; }
-
 .nav ul {
   list-style: none;
   margin: 0;
@@ -513,20 +509,6 @@ template {
   display: inline-block;
   transition: 0.3s; }
   .home__btn:hover {
-    color: #50c3af;
-    background-color: #fff;
-    transition: 0.3s; }
-
-.small-btn {
-  color: #ffffff;
-  text-decoration: none;
-  padding: 10px 15px;
-  margin-top: 20px;
-  border-radius: 20px;
-  background-color: #50c3af;
-  display: inline-block;
-  transition: 0.3s; }
-  .small-btn:hover {
     color: #50c3af;
     background-color: #fff;
     transition: 0.3s; }
@@ -624,8 +606,7 @@ template {
     background-color: #e2e3e4;
     display: inline-block; }
   .for-who__para {
-    color: #787b80;
-    line-height: 1.75; }
+    color: #979a9e; }
 
 @media (max-width: 530px) {
   .col-3 {
@@ -636,48 +617,6 @@ template {
     .for-who__col:last-child {
       margin-bottom: 0; } }
 .services {
-  background-color: #f5f5f5; }
-  .services__col {
-    width: 265px; }
-  .services__img {
-    width: 265px;
-    height: 168px;
-    overflow: hidden; }
-    .services__img__car {
-      position: relative;
-      top: -75px;
-      left: -105px; }
-    .services__img__couple {
-      position: relative;
-      top: -50px;
-      left: -170px; }
-  .services h2 {
-    font-size: 1.29rem;
-    color: #40474e;
-    text-transform: uppercase;
-    margin-top: 40px;
-    margin-bottom: 10px; }
-  .services__line {
-    width: 265px;
-    height: 2px;
-    background-color: #ededee;
-    display: inline-block; }
-  .services__para {
-    color: #787b80;
-    line-height: 1.75; }
-
-@media (max-width: 650px) {
-  .col-2 {
-    justify-content: space-around; } }
-@media (max-width: 650px) {
-  .col-2 {
-    flex-direction: column; }
-
-  .services__col {
-    text-align: center;
-    margin: auto;
-    margin-bottom: 40px; }
-    .services__col:last-child {
-      margin-bottom: 0; } }
+  background-color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */

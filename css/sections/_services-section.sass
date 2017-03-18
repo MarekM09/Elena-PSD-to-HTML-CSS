@@ -1,0 +1,53 @@
+.services
+  background-color: #f5f5f5
+
+  &__col
+    width: 265px
+
+  &__img
+    width: 265px
+    height: 168px
+    overflow: hidden
+
+    &__car
+      position: relative
+      top: -75px
+      left: -105px
+
+    &__couple
+      position: relative
+      top: -50px
+      left: -170px
+
+  h2
+    font-size: 1.29rem
+    color: $darker-font
+    text-transform: uppercase
+    margin-top: 40px
+    margin-bottom: 10px
+
+  &__line
+    +horizontal-line(265px, #ededee)
+    display: inline-block
+
+  &__para
+    color: $dark-font
+    line-height: 1.75
+
+@media (max-width: 650px)
+
+  .col-2
+    justify-content: space-around
+
+@media (max-width: 650px)
+
+  .col-2
+    flex-direction: column
+
+  .services__col
+    text-align: center
+    margin: auto
+    margin-bottom: 40px
+
+    &:last-child
+      margin-bottom: 0
