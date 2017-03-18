@@ -414,7 +414,9 @@ template {
 .container {
   max-width: 600px;
   padding: 60px 0;
-  margin: 0 auto;
+  margin: 0 auto; }
+
+.col-3 {
   display: flex; }
 
 .nav ul {
@@ -533,7 +535,7 @@ template {
     .header--after-scroll ul {
       margin-top: 20px; }
 
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .header {
     display: flex;
     flex-direction: row;
@@ -579,7 +581,7 @@ template {
     text-transform: uppercase;
     display: inline-block; }
 
-@media (max-width: 500px) {
+@media (max-width: 530px) {
   .home__title {
     font-size: 2rem; }
   .home__dsc {
@@ -592,13 +594,27 @@ template {
 .for-who {
   text-align: center;
   background-color: #eeeeef; }
+  .for-who__img {
+    height: 45px; }
   .for-who h3 {
     font-size: 1.14rem;
+    color: #40474e;
     text-transform: uppercase; }
   .for-who__line {
     width: 130px;
     height: 2px;
     background-color: #e2e3e4;
     display: inline-block; }
+  .for-who__para {
+    color: #979a9e; }
+
+@media (max-width: 530px) {
+  .col-3 {
+    display: block; }
+
+  .for-who__col {
+    margin-bottom: 40px; }
+    .for-who__col:last-child {
+      margin-bottom: 0; } }
 
 /*# sourceMappingURL=style.css.map */
