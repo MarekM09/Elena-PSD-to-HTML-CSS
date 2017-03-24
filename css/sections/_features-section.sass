@@ -1,0 +1,50 @@
+.features
+  background-color: $lighter-bg-color
+
+  &__col
+    width: 180px
+
+  &__img
+    width: 180px
+    height: 140px
+    overflow: hidden
+
+    &__lights
+      position: relative
+      top: -50px
+      left: -80px
+
+    &__umbrella
+      position: relative
+      top: -85px
+      left: -10px
+
+    &__shoe
+      position: relative
+      top: -70px
+      left: -32px
+
+  h3
+    color: $darker-font
+    text-transform: uppercase
+    margin-top: 40px
+    margin-bottom: 0
+
+  &__line
+    +horizontal-line(100%, #ededee)
+    display: inline-block
+
+  &__para
+    color: $dark-font
+    line-height: 1.75
+
+  &__link
+    color: $primary-color
+    text-decoration: none
+    transition: 0.3s
+
+    &:hover
+      font-size: 1.14rem
+      font-weight: bold
+      transition: 0.3s
+
