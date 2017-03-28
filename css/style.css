@@ -628,12 +628,13 @@ template {
     color: #787b80;
     line-height: 1.75; }
 
-@media (max-width: 530px) {
+@media (max-width: 565px) {
   .col-3 {
-    display: block; }
+    flex-wrap: wrap; }
 
   .for-who__col {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    padding: 0 20px; }
     .for-who__col:last-child {
       margin-bottom: 0; } }
 .services {
@@ -670,7 +671,7 @@ template {
 @media (max-width: 650px) {
   .col-2 {
     justify-content: space-around; } }
-@media (max-width: 650px) {
+@media (max-width: 550px) {
   .col-2 {
     flex-direction: column; }
 
@@ -703,6 +704,9 @@ template {
   .support__btn {
     background-color: #d2d5da; }
 
+@media (max-width: 620px) {
+  .support {
+    padding: 0 20px; } }
 .features {
   background-color: #f5f5f5; }
   .features__col {
@@ -744,5 +748,18 @@ template {
       font-size: 1.14rem;
       font-weight: bold;
       transition: 0.3s; }
+
+@media (max-width: 620px) {
+  .col-3 {
+    justify-content: space-around; } }
+@media (max-width: 565px) {
+  .features__col {
+    margin-bottom: 40px; }
+    .features__col:last-child {
+      margin-bottom: 0; } }
+@media (max-width: 565px) {
+  .features__col {
+    margin-left: 5px;
+    margin-right: 5px; } }
 
 /*# sourceMappingURL=style.css.map */
