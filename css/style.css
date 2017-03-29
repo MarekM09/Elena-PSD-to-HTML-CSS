@@ -828,5 +828,37 @@ template {
     margin-bottom: 40px; }
   .themeforest:last-child {
     margin-bottom: 0; } }
+.testimonials {
+  background-color: #50c3af; }
+  .testimonials__header {
+    text-align: center; }
+    .testimonials__header img {
+      vertical-align: middle; }
+    .testimonials__header h4 {
+      font-size: 1.07rem;
+      color: #ffffff;
+      text-transform: uppercase;
+      display: inline-block;
+      margin: 0;
+      margin-left: 5px;
+      vertical-align: middle; }
+  .testimonials__line {
+    width: 250px;
+    height: 2px;
+    background-color: #61c8b6;
+    margin: 20px auto; }
+  .testimonials__companys {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .testimonials__companys img {
+      margin-top: 40px; }
+
+@media(max-width: 620px) {
+  .testimonials__companys img {
+    padding: 0 10px; } }
+@media(max-width: 500px) {
+  .testimonials__companys {
+    justify-content: space-around; } }
 
 /*# sourceMappingURL=style.css.map */
