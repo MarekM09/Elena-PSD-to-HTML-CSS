@@ -1,0 +1,44 @@
+.footer
+  background-color: $lighter-bg-color
+
+  &__container
+    max-width: 590px
+    margin: 0 auto
+    padding: 20px 0
+    display: flex
+    justify-content: space-between
+
+  .copyright
+    font-size: 0.93rem
+    color: #c8c9cb
+    padding-top: 5px
+
+    span
+      color: $dark-font
+
+    a
+      color: #c8c9cb
+      text-decoration: none
+      transition: 0.3s
+
+      &:hover
+        color: #f75e58
+        transition: 0.3s
+
+  .social img
+    margin-left: 10px
+
+@media(max-width: 620px)
+
+  .footer__container
+    padding: 20px 10px
+    flex-wrap: wrap
+
+@media(max-width: 340px)
+
+  .footer__container
+    justify-content: space-around
+    flex-wrap: wrap
+
+    .copyright
+      margin-bottom: 20px

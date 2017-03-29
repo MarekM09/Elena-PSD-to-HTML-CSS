@@ -23,6 +23,7 @@
   &__companys
     display: flex
     justify-content: space-between
+    align-items: baseline
     flex-wrap: wrap
 
     img
@@ -30,10 +31,11 @@
 
 @media(max-width: 620px)
 
-  .testimonials__companys img
-    padding: 0 10px
+  .testimonials__companys 
+    justify-content: space-around
 
 @media(max-width: 500px)
 
   .testimonials__companys
-    justify-content: space-around
+    img
+      padding: 0 10px
