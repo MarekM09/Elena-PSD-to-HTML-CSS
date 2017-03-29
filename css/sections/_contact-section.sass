@@ -1,0 +1,35 @@
+.contact
+  background-color: $bg-color
+
+  &__col
+    width: 260px
+
+  img
+    vertical-align: middle
+
+  h2
+    font-size: 1.29rem
+    color: $darker-font
+    text-transform: uppercase
+    display: inline-block
+    margin: 0
+    margin-left: 15px
+    vertical-align: middle
+
+  &__line
+    +horizontal-line(260px, #e2e3e4)
+    margin-top: 20px
+
+  &__para
+    color: $dark-font
+    line-height: 1.75
+
+@media (max-width: 550px)
+  
+  .contact__col
+    text-align: center
+    margin: auto
+    margin-bottom: 40px
+
+    &:last-child
+      margin-bottom: 0

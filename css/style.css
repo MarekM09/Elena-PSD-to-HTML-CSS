@@ -761,5 +761,35 @@ template {
   .features__col {
     margin-left: 5px;
     margin-right: 5px; } }
+.contact {
+  background-color: #eeeeef; }
+  .contact__col {
+    width: 260px; }
+  .contact img {
+    vertical-align: middle; }
+  .contact h2 {
+    font-size: 1.29rem;
+    color: #40474e;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0;
+    margin-left: 15px;
+    vertical-align: middle; }
+  .contact__line {
+    width: 260px;
+    height: 2px;
+    background-color: #e2e3e4;
+    margin-top: 20px; }
+  .contact__para {
+    color: #787b80;
+    line-height: 1.75; }
+
+@media (max-width: 550px) {
+  .contact__col {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px; }
+    .contact__col:last-child {
+      margin-bottom: 0; } }
 
 /*# sourceMappingURL=style.css.map */
