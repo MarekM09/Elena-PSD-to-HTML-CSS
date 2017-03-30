@@ -1,7 +1,7 @@
 var header = document.getElementById("header");
 
 window.onscroll = function () {
-  if (document.body.scrollTop > 64) {
+  if (document.body.scrollTop > 170) {
     header.classList.add("header--after-scroll");
   } 
   else {
@@ -20,4 +20,9 @@ hamburger.onclick = function () {
     mobileNav.classList.add("mobile-nav--is-open");
     hamburger.classList.add("hamburger--is-open");
   }
+}
+
+mobileNav.onclick = function () {
+  mobileNav.classList.remove("mobile-nav--is-open");
+  hamburger.classList.remove("hamburger--is-open");
 }
