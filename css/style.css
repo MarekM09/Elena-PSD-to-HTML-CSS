@@ -28,7 +28,7 @@ html {
  */
 body {
   margin: 0;
-  background-color: #497576; }
+  background-color: #c2c1c1; }
 
 /**
  * Add the correct display in IE 9-.
@@ -882,8 +882,16 @@ template {
       .footer .copyright a:hover {
         color: #f75e58;
         transition: 0.3s; }
-  .footer .social img {
+  .footer .social i {
+    font-size: 1.4rem;
+    color: #b5b7b9;
     margin-left: 10px; }
+  .footer .social__google:hover {
+    color: #d34836; }
+  .footer .social__facebook:hover {
+    color: #3b5998; }
+  .footer .social__twitter:hover {
+    color: #4099FF; }
 
 @media(max-width: 620px) {
   .footer__container {
